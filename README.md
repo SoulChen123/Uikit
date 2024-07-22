@@ -6,25 +6,12 @@ Packages UIkit is a set of React components and hooks used to build pages on app
 
 `yarn add @oxfun/uikit @oxfun/sdk bignumber.js @emotion/react @emotion/styled`
 
-## Setup
 
 ### Reset
 
 A reset CSS is available as a global styled component.
 
 ```tsx
-import { Provider, ThemeProvider, Header, AccountIo } from "@oxfun/uikit";
-...
-...
-    <Provider>
-        <ThemeProvider>
-            <AccountIo />  ////if you need
-            <Header />
-        </ThemeProvider>
-    <Provider/>
-
-```
-
 ### Types
 
 This project is built with Typescript and export all the relevant types.
